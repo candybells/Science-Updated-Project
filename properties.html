@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties of Tin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Metal+Mania&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            font-family: "Jost", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        .buttons {
+            width: 85%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            font-size: large;
+            color: black;
+        }
+
+        .buttons a:hover {
+            color: #7b737d;
+        }
+
+        .directions {
+            display: flex;
+            gap: 80px;
+        }
+
+        .nav {
+            background-color: #e3e6d8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 20px 0px;
+        }
+
+        .title {
+            background-color: #7b737d;
+            width: 100%;
+            margin: 0;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .intro > h2 {
+            font-size: 3rem;
+            font-family: "Metal Mania", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            color: #e3e6d8;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 20px 0px;
+        }
+
+        .container {
+            max-width: 800px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .properties {
+            background-color: #bac1c5;
+        }
+
+        .prop-image > * {
+            width: 300px;
+        }
+
+        .form {
+            background-color: #aba7a6;
+            height: 250px;
+        }
+
+        .form-image > * {
+            width: 250px;
+        }
+
+        .form-text > * {
+            text-align: center;
+            font-size: x-large;
+        }
+
+        .tin-compounds {
+            background-color: #958b8c;
+            padding: 50px 0px;
+            height: 300px;
+        }
+
+        .compounds {
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 30px 150px;
+            gap: 30px;
+        }
+
+        .compounds > h3 {
+            grid-column: span 3;
+            text-align: center;
+            font-size: xx-large;
+            font-family: "Metal Mania", system-ui;
+            font-weight: normal;
+            margin-bottom: 80px;
+        }
+
+        .compound img {
+            width: 200px;
+            height: 150px;
+        }
+
+        .compound > .text {
+            text-align: center;
+            font-size: large;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #7b737d;
+            height: 180px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        footer > a {
+            color: #e3e6d8;
+        }
+    </style>
+</head>
+<body>
+    <section class="nav">
+        <div class="buttons">
+            <div class="directions">
+                <a href="./index.html">Home</a>
+                <a href="./properties.html">Properties</a>
+                <a href="find.html">Where to Find</a>
+                <a href="uses.html">Uses</a>
+            </div>
+        </div>
+    </section>
+    <section class="title">
+        <div class="intro">
+            <h2>Properties of Tin</h2>
+        </div>
+    </section>
+    <section class="properties">
+        <div class="prop container">
+            <div class="prop-text">
+                <ul>
+                    <li><b>Element Family:</b> Group 14, known as the Carbon Family. Carbon family elements contain atoms that have 4 valence electrons.</li>
+                    <li><b>Atomic Mass:</b> 118.710</li>
+                    <li><b>Density:</b> 7.287g/cm3</li>
+                    <li>
+                        <b>Temperature Change Points: </b>
+                        <ul>
+                            <li><b>Boiling Point:</b> 2,602 ºC</li>
+                            <li><b>Melting Point:</b> 231.93 ºC</li>
+                            <li>Because tin has such a high melting point, we would normally observe it as a solid at Room Temperature.</li>
+                        </ul>
+                    </li>
+                    <li><b>Reactiveness:</b> Tin does not react quickly with water or air, but it reacts quickly to both strong acids and strong bases as it is quite weak on its own.</li>
+                    <li><b>Exposure:</b> When exposed, an invisible protective film of stannic oxide is formed on tin by the reaction with oxygen in the air</li>
+                </ul>
+            </div>
+            <div class="prop-image">
+                <img src="./proptin.jpg">
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="form container">
+            <div class="form-image">
+                <img src="./transform.jpg">
+            </div>
+            <div class="form-text">
+                <p>Tin exists in two different forms: the familiar form, white tin, and gray tin, which is powdery and of little use.</p>
+            </div>
+        </div>
+    </section>
+    <section class="tin-compounds">
+        <div class="compounds container">
+            <h3>Compounds</h3>
+            <div class="compound iodide">
+                <div class="iodide image">
+                    <img src="./iodide.png">
+                </div>
+                <div class="iodide text">SnI<sub>4</sub> (Tin Iodide)</div>
+            </div>
+            <div class="compound chloride">
+                <div class="chloride image">
+                    <img src="./chloride.jpeg">
+                </div>
+                <div class="chloride text">SnCl<sub>2</sub> (Tin Chloride)</div>
+            </div>
+            <div class="compound oxide">
+                <div class="oxide image">
+                    <img src="./oxide.jpg">
+                </div>
+                <div class="oxide text">SnO<sub>2</sub> (Tin Oxide)</div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <a href="./resources.html">Resources</a>
+    <a href="./bibliography.html">Bibliography</a>
+</footer>
+</html>
